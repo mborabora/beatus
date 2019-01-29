@@ -1,0 +1,124 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#introduction {
+  background: linear-gradient(rgba(165, 118, 27, 0.54), rgba(76, 128, 104, 0.5)), url('http://www.wta-suhl.de/wp-content/uploads/2016/04/wta-produktion7.jpg') 0% 0% /cover
+}
+
+.fill-viewport {
+  min-height: calc(100vh - 70px)
+}
+
+.text-white-70 {
+  color: rgba(255,255,255,0.7)
+}
+
+.text-black-40 {
+  color: rgba(0,0,0,0.4)
+}
+
+.fill-80-viewport {
+	min-height: 80vh
+}
+
+@media screen and (min-width: 768px ) {
+	.basis-md-50 {
+		flex-basis: 50%
+	}
+}
+
+#info-3 {
+	background: url("http://www.wta-suhl.de/wp-content/uploads/2016/03/wta-suhl_rebuilt-toner_03.jpg") 0% 0% /cover
+}
+
+.text-black-70 {
+	color: rgba(0,0,0,0.7);
+}
+
+.text-white-40 {
+  color: rgba(255,255,255,0.7)
+}
+
+.list-border-y li {
+	border-top: 1px solid
+}
+
+.list-border-y li:last-child {
+	border-bottom: 1px solid
+}
+
+.responsive {
+	width: 225px;
+	height: auto;
+}
+
+/* Main navbar */
+.navbar-wagon {
+  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+  background: white;
+  transition: all 0.3s ease;
+  height: 70px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+.navbar-wagon-brand img {
+  height: 35px;
+}
+
+/* Right section */
+.navbar-wagon-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Basic navbar item */
+.navbar-wagon-item {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+/* Navbar link */
+.navbar-wagon-link {
+  color: #616668;
+  font-size: 14px;
+}
+.navbar-wagon-link:hover {
+  color: #da552f;
+  text-decoration: none;
+}
+
+.navbar-wagon-dropdown-menu {
+  margin-top: 15px;
+  box-shadow: 1px 1px 4px #E6E6E6;
+  border-color: #E6E6E6;
+}
+.navbar-wagon-dropdown-menu li > a {
+  transition: color 0.3s ease;
+  font-weight: lighter !important;
+  color: #999999 !important;
+  font-size: 15px !important;
+  line-height: 22px !important;
+  padding: 10px 20px;
+
+.navbar-wagon-dropdown-menu li > a:hover {
+  background: transparent !important;
+  color: black !important;
+}
+.navbar-wagon-dropdown-menu:before {
+  content: ' ';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  right: 10px;
+  top: -6px;
+  background-color: white;
+  transform: rotate(45deg);
+  border-left: 1px solid #E6E6E6;
+  border-top: 1px solid #E6E6E6;
+}
