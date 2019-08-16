@@ -3,7 +3,18 @@ html {
 }
 
 #introduction {
-  background: linear-gradient(rgba(165, 118, 27, 0.54), rgba(76, 128, 104, 0.5)), url('http://www.wta-suhl.de/wp-content/uploads/2016/04/wta-produktion7.jpg') 0% 0% /cover
+  background: linear-gradient(rgba(41, 38, 33, 0.54), rgba(63, 63, 45, 0.5)), url('https://images.unsplash.com/photo-1531265726475-52ad60219627?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80 768w') 0% 0% /cover
+  /* background: linear-gradient(rgba(61, 233, 245, 0.54), rgba(11, 124, 211, 0.5)) */
+}
+
+.intro {
+  margin-left: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    margin: 0 auto;
+  } 
 }
 
 .fill-viewport {
@@ -28,8 +39,14 @@ html {
 	}
 }
 
+#info--1 {
+  background: url("") 0% 0% /cover
+  
+}
 #info-3 {
-	background: url("http://www.wta-suhl.de/wp-content/uploads/2016/03/wta-suhl_rebuilt-toner_03.jpg") 0% 0% /cover
+  background: linear-gradient(rgba(41, 38, 33, 0.54), rgba(63, 63, 45, 0.5)), url("https://images.unsplash.com/photo-1484689228555-fd6bc1b28b7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80 751w");
+  background-size: cover;
+  /* background: linear-gradient(rgba(177, 45, 170, 0.54), rgba(57, 21, 65, 0.5)) */
 }
 
 .text-black-70 {
