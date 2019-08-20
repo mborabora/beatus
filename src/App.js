@@ -2,13 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './index.css';
 import './App.css';
+import beatus from './beatus-logo.png'
 
 function App() {
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="/" class="navbar-wagon-brand">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrGR8tjcFgkRibcNRfWrBBTvN7kvYrKj7syJFpxN19HN4QdPVx8Q" alt="logo" />
+          <img src={beatus} alt="logo" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -19,15 +20,15 @@ function App() {
             <li class="nav-item">
               <a class="nav-link " href="#info--1">INFO<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#info--2">Idea<span class="sr-only">(current)</span></a>
-            </li> -->
+            {/* <li class="nav-item">
+              <a class="nav-link" href="#info--2">IDEA<span class="sr-only">(current)</span></a>
+            </li> 
             <li class="nav-item">
               <a class="nav-link" href="#feature-rundown">PRODUKT</a>
-            </li>
-            <li class="nav-item">
+            </li> */}
+            {/* <li class="nav-item">
               <a class="nav-link" href="#pricing">Prices</a>
-            </li> -->
+            </li>  */}
             <li class="nav-item">
               <a class="nav-link" href="#footer">ABOUT<span class="sr-only">(current)</span></a>
             </li>
@@ -48,9 +49,9 @@ function App() {
       <section id="info--1">
         <div class="container">
           <div class="row fill-80-viewport align-items-center justify-content-end text-black">
-            <div class="col d-none d-md-block align-self-end">
+            {/* <div class="col d-none d-md-block align-self-end">
             <img src="http://bit.ly/2fyUtlS" class="img-fluid"/> -->
-            </div>
+            </div> */}
             <div class="col">
               <h6 class="text-uppercase text-black-40">
               Produktinformationen
@@ -125,7 +126,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section id="feature-rundown">
+      {/* <section id="feature-rundown">
         <div class="container">
           <div class="row mt-5">
             <div class="col-12 col-md-6 mx-auto mt-5 text-center">
@@ -210,7 +211,7 @@ function App() {
           </div>
         </div>
         </div>
-      </section> -->
+      </section>  */}
       <section id="footer" class="bg-dark">
         <div class="container">
           <div class="row fill-40-viewport py-5 text-white-70 align-items-center">
@@ -228,7 +229,7 @@ function App() {
               <li>Referenzen</li>
               <li>Partner</li>
               <li>Brother</li>
-              <li>...</li> -->
+              <li>...</li>
             </ul>
           </div>
           <div class="col-12 col-md-2">
@@ -238,15 +239,15 @@ function App() {
               <li>Simple</li>
               <li>Real time</li>
               <li>Social</li>
-            </ul> -->
-          </div> -->
+            </ul>
+          </div>
           <div class="col-12 col-md-2">
           <ul class="list-unstyled">
             <li><h6 class="text-white">LEGAL</h6></li>
             <li>Impressum</li>
             <li>Datenschutzerklärung</li>
             <li>Privacy</li>
-            <li>License</li> -->
+            <li>License</li>
           </ul>
         </div>   
           </div>
