@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './index.css';
 import './App.css';
 import beatus from './beatus-logo.png'
@@ -58,7 +58,7 @@ function App() {
               </h6>
               <h2>Wir tun was unsere Kompetenz tut, nur machen wir es 500% besser. Wir setzen auf langfristige Zusammenarbeit, erstklassigen Service und hochwertige Produkte.</h2>
               <p>Wir sind ein kleines Unternehmen mit Sitz in Berlin. Unsere Kompetenz auf dem Gebiet Toner und Tinte haben wir langjähriger Erfahrung in diesem Bereich und ein Netzwerk von zufriedenen und treuen Kunden zu verdanken.</p>
-              <div class="row">
+              {/* <div class="row">
                 <div class="col d-non d-md-block">
                   <h5>Brother Patronen</h5>
                   <p>Informationen...</p>
@@ -69,7 +69,7 @@ function App() {
                   <p>Informationen...</p>
                   <a href="#" class="d-block">Mehr hier..</a>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@ function App() {
         </div>
       </div>
       </section>
-      <section id="featured-on" class="bg-primary">
+      {/* <section id="featured-on" class="bg-primary">
         <div class="container">
           <div class="row py-3 text-center text-white">
             <div class="col-12">
@@ -125,7 +125,7 @@ function App() {
             </div>  
           </div>
         </div>
-      </section>
+      </section> */}
       {/* <section id="feature-rundown">
         <div class="container">
           <div class="row mt-5">
@@ -210,11 +210,11 @@ function App() {
             <a class="btn btn-block btn-primary border-0 text-white py-3" href="#">Start</a>
           </div>
         </div>
-        </div>
+        </div>  
       </section>  */}
       <section id="footer" class="bg-dark">
         <div class="container">
-          <div class="row fill-40-viewport py-5 text-white-70 align-items-center">
+          <div class="row fill-40-viewport py-2 text-white-70 align-items-center">
             <div class="col-12 col-md-8">
               <ul class="list-unstyled">
                 <li><h6 class="text-white">ABOUT</h6></li>
@@ -228,11 +228,11 @@ function App() {
               <li><h6 class="text-white">PRODUCT</h6></li>
               <li>Referenzen</li>
               <li>Partner</li>
-              <li>Brother</li>
-              <li>...</li>
+              {/* <li>Brother</li>
+              <li>...</li> */}
             </ul>
           </div>
-          <div class="col-12 col-md-2">
+          {/* <div class="col-12 col-md-2">
             <ul class="list-unstyled">
               <li><h6 class="text-white">APIS</h6></li>
               <li>Rich data</li>
@@ -240,14 +240,14 @@ function App() {
               <li>Real time</li>
               <li>Social</li>
             </ul>
-          </div>
+          </div> */}
           <div class="col-12 col-md-2">
           <ul class="list-unstyled">
             <li><h6 class="text-white">LEGAL</h6></li>
             <li>Impressum</li>
             <li>Datenschutzerklärung</li>
-            <li>Privacy</li>
-            <li>License</li>
+            {/* <li>Privacy</li>
+            <li>License</li> */}
           </ul>
         </div>   
           </div>
