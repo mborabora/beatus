@@ -3,8 +3,8 @@ html {
 }
 
 #introduction {
-  background: linear-gradient(rgba(61, 233, 245, 0.54), rgba(11, 124, 211, 0.5))
-  /* linear-gradient(rgba(41, 38, 33, 0.54), rgba(63, 63, 45, 0.5)), url('https://unsplash.com/photos/pJadQetzTkI') 0% 0% /cover */
+  background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80'); 
+  background-size: cover;
 }
 
 .intro {
@@ -44,9 +44,8 @@ html {
 } */
 
 #info-3 {
-  /* background: linear-gradient(rgba(41, 38, 33, 0.54), rgba(63, 63, 45, 0.5)), url("https://images.unsplash.com/photo-1484689228555-fd6bc1b28b7e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80 751w"); */
+  background-image: url("https://images.unsplash.com/photo-1557683316-973673baf926?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=715&q=80");
   background-size: cover;
-  background: linear-gradient(rgba(177, 45, 170, 0.54), rgba(57, 21, 65, 0.5))
 }
 
 .text-black-70 {

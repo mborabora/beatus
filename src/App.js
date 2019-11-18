@@ -30,7 +30,7 @@ function App() {
               <a class="nav-link" href="#pricing">Prices</a>
             </li>  */}
             <li class="nav-item">
-              <a class="nav-link" href="#footer">ABOUT<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#footer">ÜBER<span class="sr-only">(current)</span></a>
             </li>
           </ul>
         </div>
@@ -40,8 +40,8 @@ function App() {
         <div class="row fill-viewport align-items-center">
           <div class="col-12 col-md-6 intro">
             <h1 class="text-white">BEATUS-OFFICE</h1>
-            <p class="lead text-white">Toner und Tinte. Bei uns erhalten Sie hochertige Tonerkartuschen und Tintenpatronen. Schauen Sie sich unser Produktportfolio an, nehmen sie Kontakt zu uns auf und wir melden uns sofort bei Ihnen mit erstklassigen Angeboten.</p>
-            <a class="btn btn-primary" href="#" role="button">Schreiben Sie uns!</a>
+            <p class="lead text-white">Bei uns erhalten Sie hochertige Tonerkartuschen und Tintenpatronen. Nehmen sie Kontakt zu uns auf und wir melden uns sofort bei Ihnen mit erstklassigen Angeboten.</p>
+            <a class="btn btn-warning" href="mailto:info@beatus-office.de?subject=Anfrage" role="button">Schreiben Sie uns!</a>
           </div>
         </div>
       </div>
@@ -56,8 +56,9 @@ function App() {
               <h6 class="text-uppercase text-black-40">
               Produktinformationen
               </h6>
-              <h2>Wir tun was unsere Kompetenz tut, nur machen wir es 500% besser. Wir setzen auf langfristige Zusammenarbeit, erstklassigen Service und hochwertige Produkte.</h2>
-              <p>Wir sind ein kleines Unternehmen mit Sitz in Berlin. Unsere Kompetenz auf dem Gebiet Toner und Tinte haben wir langjähriger Erfahrung in diesem Bereich und ein Netzwerk von zufriedenen und treuen Kunden zu verdanken.</p>
+              <h2>Wir setzen auf langfristige Zusammenarbeit, erstklassigen Service und hochwertige Produkte.</h2>
+              <p>Wir sind ein Unternehmen mit Sitz in Berlin. Unsere Kompetenz auf dem Gebiet Toner und Tinte haben wir langjähriger Erfahrung in diesem Bereich und ein Netzwerk von zufriedenen und treuen Kunden zu verdanken.Die Qualität unseres Produktes ist uns sehr wichtig. Ihr Feedback ist sehr willkommen und für uns eine große Hilfe unser Produkt und unseren Service immer weiter zu verbessern. Für Fragen, Feedback und Bestellungen kontaktieren Sie uns <a class="text-white" href="http://beatus-office.de/Startseite/" target="_blank">hier.</a>
+              </p>
               {/* <div class="row">
                 <div class="col d-non d-md-block">
                   <h5>Brother Patronen</h5>
@@ -217,21 +218,19 @@ function App() {
           <div class="row fill-40-viewport py-2 text-white-70 align-items-center">
             <div class="col-12 col-md-8">
               <ul class="list-unstyled">
-                <li><h6 class="text-white">ABOUT</h6></li>
-                <li>Die Qualität unseres Produktes ist uns sehr wichtig. 
-                  Ihr Feedback ist sehr willkommen und für uns eine große Hilfe unser Produkt und unseren Service immer weiter zu verbessern. 
-                  Für Fragen, Feedback und Bestellungen kontaktieren Sie uns <a class="text-white" href="http://beatus-office.de/Startseite/" target="_blank">hier.</a></li>
+                <li><h6 class="text-white">IMPRESSUM</h6></li>
+                <li></li>
               </ul>
             </div>
-            <div class="col-12 col-md-2">
+            {/* <div class="col-12 col-md-2">
             <ul class="list-unstyled">
-              <li><h6 class="text-white">PRODUCT</h6></li>
+              <li><h6 class="text-white">PRODUKT</h6></li>
               <li>Referenzen</li>
               <li>Partner</li>
-              {/* <li>Brother</li>
-              <li>...</li> */}
+              <li>Brother</li>
+              <li>...</li>
             </ul>
-          </div>
+          </div> */}
           {/* <div class="col-12 col-md-2">
             <ul class="list-unstyled">
               <li><h6 class="text-white">APIS</h6></li>
@@ -241,15 +240,15 @@ function App() {
               <li>Social</li>
             </ul>
           </div> */}
-          <div class="col-12 col-md-2">
+          {/* <div class="col-12 col-md-2">
           <ul class="list-unstyled">
             <li><h6 class="text-white">LEGAL</h6></li>
             <li>Impressum</li>
             <li>Datenschutzerklärung</li>
-            {/* <li>Privacy</li>
-            <li>License</li> */}
+            <li>Privacy</li>
+            <li>License</li>
           </ul>
-        </div>   
+        </div>    */}
           </div>
         </div>
       </section>
