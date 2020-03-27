@@ -6,7 +6,7 @@ import beatus from './beatus-logo.png'
 function App() {
   const [showImpressum, setShowImpressum] = useState(false);
   return (
-    <div>
+    <div className='app-container'>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="/" class="navbar-wagon-brand">
           <img src={beatus} alt="logo" />
