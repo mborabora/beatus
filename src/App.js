@@ -1,255 +1,122 @@
-import React from 'react';
-// import logo from './logo.svg';
+import React, { useState } from 'react';
 import './index.css';
 import './App.css';
 import beatus from './beatus-logo.png'
 
 function App() {
+  const [showImpressum, setShowImpressum] = useState(false);
   return (
     <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="/" class="navbar-wagon-brand">
           <img src={beatus} alt="logo" />
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link " href="#info--1">INFO<span class="sr-only">(current)</span></a>
+              <a class="nav-link " href="#info--1">
+                INFO<span class="sr-only">(current)</span>
+              </a>
             </li>
-            {/* <li class="nav-item">
-              <a class="nav-link" href="#info--2">IDEA<span class="sr-only">(current)</span></a>
-            </li> 
             <li class="nav-item">
-              <a class="nav-link" href="#feature-rundown">PRODUKT</a>
-            </li> */}
-            {/* <li class="nav-item">
-              <a class="nav-link" href="#pricing">Prices</a>
-            </li>  */}
-            <li class="nav-item">
-              <a class="nav-link" href="#footer">ABOUT<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#footer">
+                ABOUT<span class="sr-only">(current)</span>
+              </a>
             </li>
           </ul>
         </div>
       </nav>
       <section id="introduction">
-      <div class="container">
-        <div class="row fill-viewport align-items-center">
-          <div class="col-12 col-md-6 intro">
-            <h1 class="text-white">BEATUS-OFFICE</h1>
-            <p class="lead text-white">Toner und Tinte. Bei uns erhalten Sie hochertige Tonerkartuschen und Tintenpatronen. Schauen Sie sich unser Produktportfolio an, nehmen sie Kontakt zu uns auf und wir melden uns sofort bei Ihnen mit erstklassigen Angeboten.</p>
-            <a class="btn btn-primary" href="#" role="button">Schreiben Sie uns!</a>
+        <div class="container">
+          <div class="row fill-viewport align-items-center">
+            <div class="col-12 col-md-6 intro">
+              <h1 class="text-white">BEATUS-OFFICE</h1>
+              <p class="lead text-white">
+                Bei uns erhalten Sie hochwertige Verbrauchsmaterialien für Ihren
+                Drucker. Schauen Sie sich unser Produktportfolio an, nehmen sie
+                Kontakt zu uns auf und wir melden uns sofort bei Ihnen mit
+                erstklassigen Angeboten.
+              </p>
+              <a
+                class="btn btn-warning"
+                href="mailto:info@beatus-office.de?subject=Anfrage"
+                role="button"
+              >
+                Schreiben Sie uns!
+              </a>
+            </div>
           </div>
         </div>
-      </div>
       </section>
       <section id="info--1">
         <div class="container">
           <div class="row fill-80-viewport align-items-center justify-content-end text-black">
-            {/* <div class="col d-none d-md-block align-self-end">
-            <img src="http://bit.ly/2fyUtlS" class="img-fluid"/> -->
-            </div> */}
             <div class="col">
-              <h6 class="text-uppercase text-black-40">
-              Produktinformationen
-              </h6>
-              <h2>Wir tun was unsere Kompetenz tut, nur machen wir es 500% besser. Wir setzen auf langfristige Zusammenarbeit, erstklassigen Service und hochwertige Produkte.</h2>
-              <p>Wir sind ein kleines Unternehmen mit Sitz in Berlin. Unsere Kompetenz auf dem Gebiet Toner und Tinte haben wir langjähriger Erfahrung in diesem Bereich und ein Netzwerk von zufriedenen und treuen Kunden zu verdanken.</p>
-              {/* <div class="row">
-                <div class="col d-non d-md-block">
-                  <h5>Brother Patronen</h5>
-                  <p>Informationen...</p>
-                  <a href="#" class="d-block">Mehr hier..</a>
-                </div>
-                <div class="col d-none d-lg-block">
-                  <h5>Andere Patronen</h5>
-                  <p>Informationen...</p>
-                  <a href="#" class="d-block">Mehr hier..</a>
-                </div>
-              </div> */}
+              <h6 class="text-uppercase text-black-40">Produktinformationen</h6>
+              <h2>
+                Wir setzen auf langfristige Zusammenarbeit, erstklassigen
+                Service und hochwertige Produkte.
+              </h2>
+              <p>
+                Wir sind ein Unternehmen mit Sitz in Berlin. Unsere Kompetenz
+                haben wir langjähriger Erfahrung in diesem Bereich und einem
+                Netzwerk von zufriedenen und treuen Kunden zu verdanken. Die
+                Qualität unseres Produktes ist uns sehr wichtig. Ihr Feedback
+                ist sehr willkommen und für uns eine große Hilfe unser Produkt
+                und unseren Service immer weiter zu verbessern. Für Fragen,
+                Feedback und Bestellungen kontaktieren Sie uns!
+              </p>
             </div>
           </div>
         </div>
       </section>
-      {/* <section id="info--2" class="bg-dark">
+      <section id="info-3" style={{ position: "relative" }}>
         <div class="container">
-          <div class="row align-items-center fill-80-viewport">
-            <div class="col-12 col-md-6 my-5 order-2 order-md-1">
-              <p class="text-uppercase text-white-40"><strong>faster development</strong></p>
-              <h2 class="text-white">Coding has never been this fast. It's almost magicalCoding has never been this fast. It's almost magical</h2>
-              <p class="lead text-white-70">Stop hiring engineers to write your code. Just install one script that magically solves all your problems.</p>
-              <a class="btn btn-light d-block d-md-inline-block py-3" href="#" role="button">Read the docs</a>
-            </div>
-            <pre class="col-12 col-md-6 my-5 order-1 order-md-2 py-4 border border-info rounded-text-info text-info">
-              <span>1</span> <span> //codingSteroids.js</span> 
-              <span>2</span>
-              <span>3</span>   const data = {
-              <span>4</span>        'purpose': {
-              <span>5</span>        'getId': '#element',
-              <span>6</span>        'companyName': 'coolStartup',
-              <span>7</span>      }
-              <span>8</span>    }
-              <span>9</span>     
-              <span>10</span>   function codingSteroids(  
-              <span>11</span>       data,
-              <span>12</span>       getSteroidsType
-              <span>13</span>   ) 
-              <span>14</span>     
-              <span>15</span>   function getSteroidsType() {
-              <span>16</span>     return 'codeHellish!'
-              <span>17</span>   }</pre>
-          </div>
-        </div>
-      </section> --> */}
-      <section id="info-3">
-      <div class="container">
-        <div class="row fill-80-viewport align-items-center text-white">
-          <div class="col-12 col-md-4">
-            <h6 class="text-white-40">Unsere Philosophie</h6>
-            <h3>be·ā·tus ist latein für glücklich und zufrieden. Für uns ist das nicht nur ein Name, wir sind erst zufrieden wenn unsere Kunden zufrieden sind!</h3>
-            <p class="text-uppercase text-white-70">team, beatus-office</p>
-          </div>
-        </div>
-      </div>
-      </section>
-      {/* <section id="featured-on" class="bg-primary">
-        <div class="container">
-          <div class="row py-3 text-center text-white">
-            <div class="col-12">
-              <i class="fab fa-4x fa-facebook my-3 mx-4" aria-hidden="true"></i>
-              <i class="fas fa-4x fa-at my-3 mx-4" aria-hidden="true"></i>
-              <i class="fab fa-4x fa-instagram my-3 mx-4" aria-hidden="true"></i>
-            </div>  
-          </div>
-        </div>
-      </section> */}
-      {/* <section id="feature-rundown">
-        <div class="container">
-          <div class="row mt-5">
-            <div class="col-12 col-md-6 mx-auto mt-5 text-center">
-              <h6 class="text-black-40 text-uppercase">Ein Auschnitt unserer Produkte</h6>
-              <h3 class="text-black-70 mb-5">Hochwertige Tonerkartuschen und Tintenpatronen</h3>
-            </div>
-          </div>
-          <div class="row mb-5">
-            <div class="col-12 col-md-4 text-center">
-              <img src="https://www.wta-suhl.de/wp-content/uploads/2018/05/101342_BroLC223_rainbow-400x284.jpg" class="mt-4 responsive"/>
-              <p> 
-              <strong class="text-info">24/7 support</strong> For your sake, we do not sleep.</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-              <img src="https://www.wta-suhl.de/wp-content/uploads/2018/05/135514_HP903XL_rainbow-1-400x284.jpg" class="mt-4 responsive"/>
-              <p>
-              <strong class="text-info">Fast</strong> Like Flash!</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-              <img src="https://www.wta-suhl.de/wp-content/uploads/2018/05/HP254_Karton-1-400x284.jpg" class="mt-4 responsive"/>
-              <p>
-                <strong class="text-info">Reliable</strong> We never have a server downtime.</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-              <img src="https://www.wta-suhl.de/wp-content/uploads/2018/05/162008_LexMS818-1-400x284.jpg" class="mt-4 responsive"/>
-              <p> 
-              <strong class="text-info">Computational Analysis</strong> Like no other.</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-              <img src="https://www.wta-suhl.de/wp-content/uploads/2018/05/101342_BroLC223_rainbow-400x284.jpg" class="mt-4 responsive"/>
-              <p>
-              <strong class="text-info">Analytics</strong> Like no other.</p>
-            </div>
-            <div class="col-12 col-md-4 text-center">
-              <img src="https://www.wta-suhl.de/wp-content/uploads/2018/05/135514_HP903XL_rainbow-1-400x284.jpg" class="mt-4 responsive"/>
-              <p>
-                <strong class="text-info">Affordable</strong> as Coffee.</p>
+          <div class="row fill-80-viewport align-items-center text-white">
+            <div class="col-12 col-md-4">
+              <h6 class="text-white-40">Unsere Philosophie</h6>
+              <h3>
+                be·ā·tus ist Latein für glücklich und zufrieden. Für uns ist das
+                nicht nur ein Name, wir sind erst zufrieden wenn unsere Kunden
+                zufrieden sind!
+              </h3>
+              <p class="text-uppercase text-white-70">team, beatus-office</p>
             </div>
           </div>
         </div>
       </section>
-      <section id="pricing" class="bg-light">
-        <div class="container fill-80-viewport">
-          <div class="row">
-            <div class="col-12 col-md-6 mx-auto text-center my-5">
-              <h6 class="text-black-40 text-uppercase">pricing</h6>
-              <h3 class="text-black-70">we are very affordable</h3>
-            </div>
-          </div>
-        <div class="row pb-5">
-          <div class="col-12 col-md-4 px-2 my-4 text-center">
-            <h6 class="text-black-40 text-uppercase">personal</h6>
-            <img src="http://bit.ly/2y9EpP2" alt="$9 per month" class="my-4" />
-            <p>Good enough power</p>
-            <ul class="list-unstyled list-border-black-20 list-border-y text-left text-black-70">
-              <li class="py-2"><strong>10K</strong> monthly request</li>
-              <li class="py-2"><strong>9am-5pm</strong> technical support</li>
-              <li class="py-2"><strong>Public</strong> API access</li>
-            </ul>
-            <a class="btn btn-block btn-primary border-0 text-white py-3" href="#">Start</a>
-          </div>
-          <div class="col-12 col-md-4 px-2 my-4 text-center">
-            <h6 class="text-black-40 text-uppercase">personal</h6>
-            <img src="http://bit.ly/2y9EpP2" alt="$9 per month" class="my-4" />
-            <p>Good enough power</p>
-            <ul class="list-unstyled list-border-black-20 list-border-y text-left text-black-70">
-              <li class="py-2"><strong>10K</strong> monthly request</li>
-              <li class="py-2"><strong>9am-5pm</strong> technical support</li>
-              <li class="py-2"><strong>Public</strong> API access</li>
-            </ul>
-            <a class="btn btn-block btn-primary border-0 text-white py-3" href="#">Start</a>
-          </div> <div class="col-12 col-md-4 px-2 my-4 text-center">
-            <h6 class="text-black-40 text-uppercase">personal</h6>
-            <img src="http://bit.ly/2y9EpP2" alt="$9 per month" class="my-4" />
-            <p>Good enough power</p>
-            <ul class="list-unstyled list-border-black-20 list-border-y text-left text-black-70">
-              <li class="py-2"><strong>10K</strong> monthly request</li>
-              <li class="py-2"><strong>9am-5pm</strong> technical support</li>
-              <li class="py-2"><strong>Public</strong> API access</li>
-            </ul>
-            <a class="btn btn-block btn-primary border-0 text-white py-3" href="#">Start</a>
-          </div>
-        </div>
-        </div>  
-      </section>  */}
       <section id="footer" class="bg-dark">
         <div class="container">
           <div class="row fill-40-viewport py-2 text-white-70 align-items-center">
             <div class="col-12 col-md-8">
               <ul class="list-unstyled">
-                <li><h6 class="text-white">ABOUT</h6></li>
-                <li>Die Qualität unseres Produktes ist uns sehr wichtig. 
-                  Ihr Feedback ist sehr willkommen und für uns eine große Hilfe unser Produkt und unseren Service immer weiter zu verbessern. 
-                  Für Fragen, Feedback und Bestellungen kontaktieren Sie uns <a class="text-white" href="http://beatus-office.de/Startseite/" target="_blank">hier.</a></li>
+                <li>
+                  <h6
+                    class="impressum text-white"
+                    onClick={() => setShowImpressum(!showImpressum)}
+                  >
+                    IMPRESSUM
+                  </h6>
+                    <li>Beatus Office</li>
+                    <li>Inhaber: Jouand Mazdak</li>
+                    <li>Brandenburgische Str. 29</li>
+                    <li>12167 Berlin</li>
+                    <li>E-Mail: info@beatus-office.de</li>
+                </li>
               </ul>
             </div>
-            <div class="col-12 col-md-2">
-            <ul class="list-unstyled">
-              <li><h6 class="text-white">PRODUCT</h6></li>
-              <li>Referenzen</li>
-              <li>Partner</li>
-              {/* <li>Brother</li>
-              <li>...</li> */}
-            </ul>
-          </div>
-          {/* <div class="col-12 col-md-2">
-            <ul class="list-unstyled">
-              <li><h6 class="text-white">APIS</h6></li>
-              <li>Rich data</li>
-              <li>Simple</li>
-              <li>Real time</li>
-              <li>Social</li>
-            </ul>
-          </div> */}
-          <div class="col-12 col-md-2">
-          <ul class="list-unstyled">
-            <li><h6 class="text-white">LEGAL</h6></li>
-            <li>Impressum</li>
-            <li>Datenschutzerklärung</li>
-            {/* <li>Privacy</li>
-            <li>License</li> */}
-          </ul>
-        </div>   
           </div>
         </div>
       </section>
