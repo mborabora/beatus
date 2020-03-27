@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
-import './index.css';
-import './App.css';
-import beatus from './beatus-logo.png'
+import React from "react";
+import "./index.css";
+import "./App.css";
+import beatus from "./beatus-logo.png";
 
 function App() {
-  const [showImpressum, setShowImpressum] = useState(false);
   return (
-    <div>
+    <div className="app-container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="/" class="navbar-wagon-brand">
           <img src={beatus} alt="logo" />
@@ -100,22 +99,17 @@ function App() {
       <section id="footer" class="bg-dark">
         <div class="container">
           <div class="row fill-40-viewport py-2 text-white-70 align-items-center">
-            <div class="col-12 col-md-8">
-              <ul class="list-unstyled">
-                <li>
-                  <h6
-                    class="impressum text-white"
-                    onClick={() => setShowImpressum(!showImpressum)}
-                  >
-                    IMPRESSUM
-                  </h6>
-                    <li>Beatus Office</li>
-                    <li>Inhaber: Jouand Mazdak</li>
-                    <li>Brandenburgische Str. 29</li>
-                    <li>12167 Berlin</li>
-                    <li>E-Mail: info@beatus-office.de</li>
-                </li>
-              </ul>
+            <div class="col-12 col-md-4">
+              <div className="text-white">IMPRESSUM</div>
+              <div>Beatus Office</div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div>Brandenburgische Str. 29</div>
+              <div>12167 Berlin</div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div>Inhaber: Jouand Mazdak</div>
+              <div>E-Mail: info@beatus-office.de</div>
             </div>
           </div>
         </div>
