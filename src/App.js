@@ -32,7 +32,7 @@ function App() {
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#footer">
-                ABOUT<span class="sr-only">(current)</span>
+                IMPRESSUM<span class="sr-only">(current)</span>
               </a>
             </li>
           </ul>
